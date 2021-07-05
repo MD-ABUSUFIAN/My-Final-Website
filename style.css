@@ -1,0 +1,124 @@
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+p{
+    color: gray;
+    text-align: justify;
+}
+.first-section{
+   
+    display: flex;
+    width: 100%;
+    background-image: url(photo/top-banner.png);
+    background-repeat: no-repeat;
+    padding-bottom: 150px;
+}
+h1{
+    font-size: 40px;
+}
+.orange-color{
+    color: orange;
+
+}
+.first-section-div1{
+    width: 45%;
+    float: left;
+    padding-left:5%;
+}
+.hire-me-button{
+    text-decoration: none;
+    color: white;
+    padding: 10px 40px;
+    background-image: linear-gradient(orange,tomato);
+    border-radius:10px;
+    
+}
+.first-section-div2{
+    width: 45%;
+    float: left;
+    padding-left:5%;
+}
+.first-section-div2 img{
+    width: 100%;
+}
+.second-section{
+    display: flex;
+    width: 100%;
+    background-image: url(photo/dream-bg.png);
+    background-repeat: no-repeat;
+
+    background-position: right;
+}
+.second-section-div1{
+    width: 45%;
+    float: left;
+    padding-left: 5%;
+}
+
+.second-section-div1 img{
+    width: 100%;
+
+}
+.second-section-div2{
+    width: 45%;
+    float: left;
+    padding-left: 3%;
+    padding-right: 2px;
+}
+.Download-resume-button{
+    text-decoration: none;
+    color: white;
+    padding: 10px 40px;
+    border-radius: 10px;
+    background-image: linear-gradient(orange,tomato);
+}
+.third-section{
+padding-top: 150px;
+}
+.third-section{
+    padding-top: 200px;
+    }
+.third-section-maindiv{
+    width: 100%;
+    display: flex;
+    background-image: url(photo/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+   
+   
+}
+.third-section-div1{
+    margin-left:4% ;
+    width: 50%;
+    float: left;
+    padding-left: 1%;
+    padding-right: 1%;
+    border-radius: 10px;
+    box-shadow: 2px 2px 30px 2px #05050548;
+    border-left: 10px solid;
+     border-image: linear-gradient(rgb(20, 241, 0) , rgba(9, 255, 0, 0.425));
+  border-image-slice: 1;
+    
+    
+}
+.third-section-div2{
+    width: 50%;
+    float: left;
+    margin-right: 5%;
+    margin-left: 4%;
+    padding-left: 1%;
+    padding-right: 1%;
+    border-radius: 10px;
+    box-shadow: 2px 2px 26px 2px #05050548;
+    border-left: 10px solid;
+    border-image: linear-gradient(orange , rgba(245, 5, 5, 0.836));
+  border-image-slice: 1;
+    
+   
+}
+footer p{
+    margin-top: 200px;
+    text-align: center;
+}
